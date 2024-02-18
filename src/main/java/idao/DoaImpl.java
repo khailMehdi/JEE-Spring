@@ -1,5 +1,7 @@
 package idao;
 
+import org.springframework.stereotype.Component;
+@Component("dae")
 public class DoaImpl implements IDoa {
 
     @Override

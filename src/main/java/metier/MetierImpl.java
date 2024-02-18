@@ -1,8 +1,12 @@
 package metier;
 
 import idao.IDoa;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component("metier")
 public class MetierImpl implements IMetier{
+@Autowired
     private IDoa iDoa;
 
     public MetierImpl(IDoa iDoa) {
